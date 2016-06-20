@@ -1,7 +1,7 @@
 {
   "name": "react-simple-collapse",
   "author": "Divyansh Kumar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple DIV with expanable/collapsible feature using prop (no dependency)",
   "main": "build/index.js",
   "keywords": [
