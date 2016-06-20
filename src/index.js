@@ -87,6 +87,9 @@ class Expandable extends Component {
   }
 
   makeTogglable(element) {
+    if (!element) {
+      return;
+    }
     this.el = element;
     this.height = element.clientHeight;
     if (!this.props.shouldExpanded) {

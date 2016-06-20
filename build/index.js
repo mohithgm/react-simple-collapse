@@ -123,6 +123,9 @@ var Expandable = function (_Component) {
   }, {
     key: 'makeTogglable',
     value: function makeTogglable(element) {
+      if (!element) {
+        return;
+      }
       this.el = element;
       this.height = element.clientHeight;
       if (!this.props.shouldExpanded) {
