@@ -39,6 +39,10 @@
     "react": "^15.1.0",
     "react-dom": "^15.1.0"
   },
+  "peerDependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mrdivyansh/react-simple-collapse.git"
